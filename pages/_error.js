@@ -10,7 +10,7 @@ const NextErrorComponent = ({ statusCode }) => {
   useEffect(() => {
     setTimeout(() => {
       router.push('/');
-    }, 3000);
+    }, 4000);
   }, []);
 
   return (
