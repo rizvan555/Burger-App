@@ -9,11 +9,11 @@ function Header() {
         <SiBurgerking />
       </div>
       <nav>
-        <Link href="/about" legacyBehavior>
-          <a>About</a>
-        </Link>
         <Link href="/" legacyBehavior>
           <a>Home</a>
+        </Link>
+        <Link href="/about" legacyBehavior>
+          <a>About</a>
         </Link>
         <Link href="/burgers" legacyBehavior>
           <a>Burgers</a>

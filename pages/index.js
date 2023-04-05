@@ -11,9 +11,17 @@ const inter = Inter({ subsets: ['latin'] });
 export default function Home() {
   return (
     <div>
-      <h1>My Burger Page</h1>
+      <h1 className={`${styles.title} font-effect-fire-animation`}>
+        My Burger Page
+      </h1>
+      <p className={styles.text}>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta
+        minus molestiae vel beatae natus eveniet ratione temporibus aperiam
+        harum alias officiis assumenda officia quibusdam deleniti eos cupiditate
+        dolore doloribus!
+      </p>
       <Link href="/burgers" legacyBehavior>
-        <a>For all Burgers click here</a>
+        <a className={styles.btn}>For all Burgers click here</a>
       </Link>
     </div>
   );
