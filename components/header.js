@@ -18,6 +18,9 @@ function Header() {
         <Link href="/burgers" legacyBehavior>
           <a>Burgers</a>
         </Link>
+        <Link href="/comments" legacyBehavior>
+          <a>Comments</a>
+        </Link>
         <Link href="/contact" legacyBehavior>
           <a>Contact</a>
         </Link>
