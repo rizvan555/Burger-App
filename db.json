@@ -23,6 +23,4 @@
     }
   ]
 }
-//Bu kodu isletmek ucun biz, "package.json" papkasinin script bolumunun sonuna bir elave script yazdiq ve bildirdik ki, biz bunu port5000-de acmaq isteyirik,cunki port3000de hazirda ozumuz isleyirik. "json-serveri" yuklemek ucun bunu yazmaq vacibdir. (npm i json-server --save)
 
-//Daha sonra "concurrently" paketini yuklemeliyik ki, bizim ucun ozu avtomatik yazdigimiz kodu bizim "save" etmeden bele yenilesin. (npm i concurrently --save). Bundan sonra biz sadece "script" bolumunu sonuna yeni yenilenme emrini yaziriq:("start": "concurrently \"npm run dev\" \"npm-run json-server\"").Bundan sonra biz sadece "npm run serve" emrini yazmaqla sehifeni browserde hem "port3000" hem de "port5000"-i gore bilerik.
